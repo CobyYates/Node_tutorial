@@ -1,4 +1,5 @@
 const Product = require("../models/product");
+// import { Product } from '../models/product' (es6 using esm)
 
 exports.getAddProduct = (req, res, next) => {
   res.render("admin/edit-product", {
